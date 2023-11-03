@@ -1,3 +1,3 @@
-cp ./libs/ddd/package.json ./dist/libs/ddd
-cp ./libs/ddd/README.md ./dist/libs/ddd
-cp ./libs/ddd/LICENSE ./dist/libs/ddd
+cp ./libs/core/package.json ./dist/libs/core
+cp ./libs/core/README.md ./dist/libs/core
+cp ./libs/core/LICENSE ./dist/libs/core

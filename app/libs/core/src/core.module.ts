@@ -1,8 +1,7 @@
 import { Module } from '@nestjs/common';
-import { DddService } from './ddd.service';
 
 @Module({
-  providers: [DddService],
-  exports: [DddService],
+  providers: [],
+  exports: [],
 })
-export class DddModule {}
+export class CoreModule {}
