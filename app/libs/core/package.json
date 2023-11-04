@@ -1,6 +1,6 @@
 {
   "name": "@nestjslatam/core-lib",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A common interface, models and functionality for all the libraries",
   "main": "index.js",
   "private": false,
