@@ -6,4 +6,16 @@ export class DateTimeHelper {
 
     return new Date(Date.UTC(year, month, day));
   }
+
+  static getUtcDateTimeFormatted(): string {
+    const date = this.getUtcDate();
+    const hours = new Date().getUTCHours();
+    const minutes = new Date().getUTCMinutes();
+    const seconds = new Date().getUTCSeconds();
+    const miliseconds = new Date().getUTCMilliseconds();
+
+    return `${
+      date.toISOString().split('T')[0]
+    }T${hours}:${minutes}:${seconds}:${miliseconds}`;
+  }
 }
