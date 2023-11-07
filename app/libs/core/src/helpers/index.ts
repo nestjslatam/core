@@ -1,3 +1,3 @@
-import { DateTimeHelper } from './datetime.helper';
+import { getUtcDate, getUtcDateTimeFormatted } from './datetime.helper';
 
-export { DateTimeHelper };
+export { getUtcDate, getUtcDateTimeFormatted };
